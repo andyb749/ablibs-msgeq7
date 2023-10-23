@@ -1,0 +1,27 @@
+{
+    "name": "ablibs-msgeq7",
+    "version": "0.0.1-alpha",
+    "description": "MSGEQ7 7 band graphic equaliser",
+    "keywords": "MSGEQ7",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/andyb749/ablibs-msgeq7.git"
+    },
+    "export": {
+        "include": [
+            "src/*.c",
+            "src/*.cpp",
+            "src/*.h"
+        ]
+    },
+    "authors": [
+        {
+            "name": "AndyB",
+            "email": "andyb749@hotmail.com",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": "*"
+}
