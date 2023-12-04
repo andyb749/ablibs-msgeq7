@@ -38,13 +38,11 @@
 #define __MSGEQ7_H__
 
 
-#include <SPI.h>
-
-//! \brief MSGEQ7 interface class
-//! \details A template class to interface with a MSGEQ7 graphic equaliser.
+/// @brief MSGEQ7 interface class
+/// @details A template class to interface with a MSGEQ7 graphic equaliser.
 class Msgeq7
 {
-//variables
+//fields
 public:
 	static const uint8_t maxBands = 7;
 protected:
@@ -54,7 +52,7 @@ private:
 	uint8_t _ana;
 	uint16_t _data[maxBands];
 
-//functions
+//methods
 public:
     /// @brief Initialises a new instance of the Msgeq7 class with the specified
 	/// pins.
